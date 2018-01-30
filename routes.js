@@ -1,6 +1,11 @@
 /**
  * Created by andreaterzani on 30/05/15.
  */
+
+Router.configure({
+    layoutTemplate: 'layout'
+});
+
 Router.route('/register', function () {
     this.render('register');
 });
