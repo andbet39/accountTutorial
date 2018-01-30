@@ -49,8 +49,6 @@ Template.login.events({
     }
 });
 
-
-
 Template.register.helpers({
     error:function(){
         return "prova";
